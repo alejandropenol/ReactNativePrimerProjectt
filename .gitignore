@@ -34,3 +34,12 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+# Ignorar node_modules
+node_modules/
+# Ignorar carpetas de compilación
+android/app/build/
+ios/Pods/
+# Archivos de log
+*.log
+# Archivos de configuración secretos
+.env
